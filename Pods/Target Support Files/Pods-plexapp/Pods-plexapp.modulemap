@@ -1,0 +1,6 @@
+framework module Pods_plexapp {
+  umbrella header "Pods-plexapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

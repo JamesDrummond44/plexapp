@@ -1,0 +1,6 @@
+framework module Pods_plexapp_plexappUITests {
+  umbrella header "Pods-plexapp-plexappUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

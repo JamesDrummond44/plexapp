@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2EB648D1169CA63FD7C7A1E /* Pods_plexapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9501D9E1A5FE0D7530D7A2BA /* Pods_plexapp.framework */; };
+		FBC49BBA24B59853002C0A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BB924B59853002C0A36 /* AppDelegate.swift */; };
+		FBC49BBC24B59853002C0A36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BBB24B59853002C0A36 /* SceneDelegate.swift */; };
+		FBC49BBE24B59853002C0A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BBD24B59853002C0A36 /* ViewController.swift */; };
+		FBC49BC124B59853002C0A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BBF24B59853002C0A36 /* Main.storyboard */; };
+		FBC49BC424B59853002C0A36 /* plexapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BC224B59853002C0A36 /* plexapp.xcdatamodeld */; };
+		FBC49BC624B59855002C0A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC524B59855002C0A36 /* Assets.xcassets */; };
+		FBC49BC924B59855002C0A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC724B59855002C0A36 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00BC6BC21449A91D62AB1C7B /* Pods-plexapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexapp.release.xcconfig"; path = "Target Support Files/Pods-plexapp/Pods-plexapp.release.xcconfig"; sourceTree = "<group>"; };
+		3071FE1A1FF5856F6F743045 /* Pods-plexapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexapp.debug.xcconfig"; path = "Target Support Files/Pods-plexapp/Pods-plexapp.debug.xcconfig"; sourceTree = "<group>"; };
+		30FBAE1ABD99B7AC4A2BBB12 /* Pods_plexapp_plexappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plexapp_plexappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF98241EF9D1CB6FE552A63 /* Pods-plexappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexappTests.release.xcconfig"; path = "Target Support Files/Pods-plexappTests/Pods-plexappTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DD156E790F374E6AE7912F7 /* Pods-plexapp-plexappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexapp-plexappUITests.release.xcconfig"; path = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9501D9E1A5FE0D7530D7A2BA /* Pods_plexapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plexapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADCCF75C081CD230697B8EE /* Pods-plexappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexappTests.debug.xcconfig"; path = "Target Support Files/Pods-plexappTests/Pods-plexappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7637FDD1DAC819496FFF66 /* Pods-plexapp-plexappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plexapp-plexappUITests.debug.xcconfig"; path = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AD8B62B60875C389F48634 /* Pods_plexappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plexappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8E36F424B598EF0072C4A9 /* plexapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = plexapp.entitlements; sourceTree = "<group>"; };
+		FBC49BB624B59853002C0A36 /* plexapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plexapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC49BB924B59853002C0A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC49BBB24B59853002C0A36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBC49BBD24B59853002C0A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC49BC024B59853002C0A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC49BC324B59853002C0A36 /* plexapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plexapp.xcdatamodel; sourceTree = "<group>"; };
+		FBC49BC524B59855002C0A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC49BC824B59855002C0A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC49BCA24B59855002C0A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC49BB324B59853002C0A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EB648D1169CA63FD7C7A1E /* Pods_plexapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48F4FA89CA3CDD0E1C78C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3071FE1A1FF5856F6F743045 /* Pods-plexapp.debug.xcconfig */,
+				00BC6BC21449A91D62AB1C7B /* Pods-plexapp.release.xcconfig */,
+				DC7637FDD1DAC819496FFF66 /* Pods-plexapp-plexappUITests.debug.xcconfig */,
+				8DD156E790F374E6AE7912F7 /* Pods-plexapp-plexappUITests.release.xcconfig */,
+				BADCCF75C081CD230697B8EE /* Pods-plexappTests.debug.xcconfig */,
+				6EF98241EF9D1CB6FE552A63 /* Pods-plexappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7D3BCA3969792FEA7D151F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9501D9E1A5FE0D7530D7A2BA /* Pods_plexapp.framework */,
+				30FBAE1ABD99B7AC4A2BBB12 /* Pods_plexapp_plexappUITests.framework */,
+				F6AD8B62B60875C389F48634 /* Pods_plexappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC49BAD24B59853002C0A36 = {
+			isa = PBXGroup;
+			children = (
+				FBC49BB824B59853002C0A36 /* plexapp */,
+				FBC49BB724B59853002C0A36 /* Products */,
+				C48F4FA89CA3CDD0E1C78C57 /* Pods */,
+				E7D3BCA3969792FEA7D151F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC49BB724B59853002C0A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49BB624B59853002C0A36 /* plexapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC49BB824B59853002C0A36 /* plexapp */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E36F424B598EF0072C4A9 /* plexapp.entitlements */,
+				FBC49BB924B59853002C0A36 /* AppDelegate.swift */,
+				FBC49BBB24B59853002C0A36 /* SceneDelegate.swift */,
+				FBC49BBD24B59853002C0A36 /* ViewController.swift */,
+				FBC49BBF24B59853002C0A36 /* Main.storyboard */,
+				FBC49BC524B59855002C0A36 /* Assets.xcassets */,
+				FBC49BC724B59855002C0A36 /* LaunchScreen.storyboard */,
+				FBC49BCA24B59855002C0A36 /* Info.plist */,
+				FBC49BC224B59853002C0A36 /* plexapp.xcdatamodeld */,
+			);
+			path = plexapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC49BB524B59853002C0A36 /* plexapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC49BE324B59855002C0A36 /* Build configuration list for PBXNativeTarget "plexapp" */;
+			buildPhases = (
+				D7EABD5BB593BA3533B3A45F /* [CP] Check Pods Manifest.lock */,
+				FBC49BB224B59853002C0A36 /* Sources */,
+				FBC49BB324B59853002C0A36 /* Frameworks */,
+				FBC49BB424B59853002C0A36 /* Resources */,
+				F40A8676275FC032BF3D603C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plexapp;
+			productName = plexapp;
+			productReference = FBC49BB624B59853002C0A36 /* plexapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC49BAE24B59853002C0A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FBC49BB524B59853002C0A36 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = FBC49BB124B59853002C0A36 /* Build configuration list for PBXProject "plexapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC49BAD24B59853002C0A36;
+			productRefGroup = FBC49BB724B59853002C0A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC49BB524B59853002C0A36 /* plexapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC49BB424B59853002C0A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC49BC924B59855002C0A36 /* LaunchScreen.storyboard in Resources */,
+				FBC49BC624B59855002C0A36 /* Assets.xcassets in Resources */,
+				FBC49BC124B59853002C0A36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7EABD5BB593BA3533B3A45F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plexapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40A8676275FC032BF3D603C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plexapp/Pods-plexapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plexapp/Pods-plexapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plexapp/Pods-plexapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC49BB224B59853002C0A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC49BBE24B59853002C0A36 /* ViewController.swift in Sources */,
+				FBC49BBA24B59853002C0A36 /* AppDelegate.swift in Sources */,
+				FBC49BC424B59853002C0A36 /* plexapp.xcdatamodeld in Sources */,
+				FBC49BBC24B59853002C0A36 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBC49BBF24B59853002C0A36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC49BC024B59853002C0A36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC49BC724B59855002C0A36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC49BC824B59855002C0A36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC49BE124B59855002C0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC49BE224B59855002C0A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC49BE424B59855002C0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3071FE1A1FF5856F6F743045 /* Pods-plexapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = plexapp/plexapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4ZSNLLV5W;
+				INFOPLIST_FILE = plexapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesdrummond.plexapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		FBC49BE524B59855002C0A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BC6BC21449A91D62AB1C7B /* Pods-plexapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = plexapp/plexapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4ZSNLLV5W;
+				INFOPLIST_FILE = plexapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.jamesdrummond.plexapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC49BB124B59853002C0A36 /* Build configuration list for PBXProject "plexapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC49BE124B59855002C0A36 /* Debug */,
+				FBC49BE224B59855002C0A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC49BE324B59855002C0A36 /* Build configuration list for PBXNativeTarget "plexapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC49BE424B59855002C0A36 /* Debug */,
+				FBC49BE524B59855002C0A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBC49BC224B59853002C0A36 /* plexapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBC49BC324B59853002C0A36 /* plexapp.xcdatamodel */,
+			);
+			currentVersion = FBC49BC324B59853002C0A36 /* plexapp.xcdatamodel */;
+			path = plexapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBC49BAE24B59853002C0A36 /* Project object */;
+}

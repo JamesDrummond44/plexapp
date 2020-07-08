@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E280DD3076395932A517BD973773BB6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518A0C71527D1CA0855E55CDC04384B7 /* Image.swift */; };
+		16D56B8003416F542B58CD1FBE96F2E9 /* TranscodeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F70DD8D076BBFE71C4E728425FCC /* TranscodeImage.swift */; };
+		175FF3D9FF369AF2BADE4C285D98C4FE /* PlexKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF1B875EF1DD0773621B0B01C2D69D1 /* PlexKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B84C64B65AA794DFD68F005E8D018C /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FF2090DC8D19F24B324D2CF0524667 /* URLExtensions.swift */; };
+		18665C4035EAFDA1EBCB15F4B0AFA724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1DAB1F54505BB133BE42A8CA34F47479 /* PlexCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87906B8682367F83F0C48276FB9A0D9 /* PlexCollection.swift */; };
+		2502AF5A9BE75FA512C22072748F238A /* LibraryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61845D55F744EA06E05DA2AE8407B7 /* LibraryItems.swift */; };
+		27B60492A5AB43587B264C8F4CE1FCA8 /* SwitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C91F78C99A25A1605B83E8FAAFA5F9 /* SwitchUser.swift */; };
+		2B90C3EF50C2E0A6EE052781975028F6 /* Pods-plexapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D67C1D9798F51AE2E20C7CA1740005 /* Pods-plexapp-dummy.m */; };
+		42CC3B8C6206E10E74C75F88E88627A1 /* PlexMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFA3F810036D043F11A9E3AAF05166 /* PlexMediaType.swift */; };
+		4919C5257CC6C8679DF80675EC762E8D /* RelatedMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53025E9A85E6D3660641A6D67F7B210B /* RelatedMedia.swift */; };
+		4C413015D32409BE6AC0CBF8423F1371 /* PlexPlaylistType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB42F91103F16706E533F3D3BA7F13D7 /* PlexPlaylistType.swift */; };
+		4DDEC7B29D40045CAB1204A16B02EA3E /* Pods-plexappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20179B95887FEF84C0E15551868F81 /* Pods-plexappTests-dummy.m */; };
+		4F0F78364F6F0EE551A313356BBE91DC /* PlexMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C807375D57324F2032317EBD3B1BDF1 /* PlexMediaItem.swift */; };
+		57AD8AF7D2FD069A343AFB750189B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F1A28893CFB9DB8D18936031E65AD77 /* Pods-plexapp-plexappUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F8B7EC2B8C50BC217E7E23D8985272 /* Pods-plexapp-plexappUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB3B6EE6E89644F2CB339F689757EF2 /* PlexResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B54ACF6C60199EF82B88442B7D5492 /* PlexResource.swift */; };
+		6A89452104174CEACE262A04EB422E99 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53839212912AC6B1FF33BB9A74A23716 /* Timeline.swift */; };
+		6EE31902B710C44448F1743AA8DC49C1 /* PlexKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 650CC6324AC6B94EFDC9C4BC2A25277F /* PlexKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7140D57A5350D2578C24B56955CA55A8 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E246CCC5A26A31C31657527614C60 /* Identity.swift */; };
+		7303CEE6803551E2F64A8305BF3CCE66 /* Pods-plexappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F935150E81C05336DCFBF729839D4471 /* Pods-plexappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		767B2356A04B41E0AE5AFD7F03E13D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7A2F044FF5168504C7F67D801C75D4DD /* PlexLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3417D85046608DA420A824677675C5 /* PlexLibrary.swift */; };
+		7B095D9007B285F9DE1B38EB02E3B9E4 /* Pods-plexapp-plexappUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B16BB8CFB07C0801DF264DEDE6D7347F /* Pods-plexapp-plexappUITests-dummy.m */; };
+		80F1370B4084A41C3A02F9790C66DE7C /* SimpleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED22BFE0D437B9D8C67A98A71B93E16 /* SimpleAuthentication.swift */; };
+		8164379161ED76AB59B5FDFC91511646 /* ComparableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E59A4D119064C6EC85EA974DD9382 /* ComparableExtensions.swift */; };
+		83A556CEEC26CFB1EA5A7D17E2744583 /* HomeUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25CD89F6BEECE4AFA33BDEED179AD68 /* HomeUsers.swift */; };
+		84B3E334F308A18A53BCE2AF9296AC2A /* PlexUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250C9115A33DBE193E47D8F5C66B4E9 /* PlexUser.swift */; };
+		8D77B61E160A231D697A12724E9A1ED0 /* TranscodeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3407DC5FA08D7D8138E93A01A2EA2A /* TranscodeAudio.swift */; };
+		92AADB3ADED62320485795F15D11D032 /* ItemMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C0DF2E22644CE78953B4344ABF8BA /* ItemMetadata.swift */; };
+		9378D4B702804BBE9EEB323241F0D202 /* Libraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CD17D91827A8F2D8A580E4EDCB4FD /* Libraries.swift */; };
+		94B37922AE252A96CC8FD3EA660717D1 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F1CFE6DECD5D575E47AD29F5F39F5 /* Collections.swift */; };
+		986F0039F85FA2DF94B27181D8FC6CF0 /* Plex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773A928843F8C365E4897F10E3DA1298 /* Plex.swift */; };
+		A09AE47A6EF7574BDB73B3A1F2AB65F2 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65754B48B793A85040E9E075CE03AC89 /* Resources.swift */; };
+		A93EB16FAF3BACB4E3014E8C9A8AD8E6 /* Pods-plexapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9681E7AFE4766162FD345695E3CAFB6B /* Pods-plexapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61390AEC87EA7AE3EC030956E073BF2 /* EditRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03A995A4F0E0E4743FE2F515F265C70 /* EditRating.swift */; };
+		B722D02DB331855A555D6CD667DC3F22 /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD09EBF36DFD2C77AE9BFAA73916424 /* Playlists.swift */; };
+		B802094899CD2E197F5A34A97321C8F4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B0994BBED62CA8217672DDCF45860 /* Account.swift */; };
+		B953C07EE62805F068DA90A67556D2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA332504A958093418884F323C5EA5A1 /* PlexKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC15DF41ECAA4A86CC360952E24A0FA /* PlexKit-dummy.m */; };
+		C4D6714122462FA2B4A646E9AEECD055 /* URLQueryItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2783531DA8F143AC59A65139FBC8A7 /* URLQueryItemExtensions.swift */; };
+		C7E7D97019F03971A91DAD5932E5EDF9 /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B41E4BB6FBF5D8AFA7BFFBA8CDE590 /* OAuth.swift */; };
+		DE9EEC0AAE74262ADDB306FC770CBF02 /* PlaylistItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A446578BBAF5544308C4E9146F20B18 /* PlaylistItems.swift */; };
+		F5E5536E53C372A2C0B5BF047748CF98 /* MediaFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B88003079D460E1C02FEB41F1CD666 /* MediaFile.swift */; };
+		FEB98BE803F300B6A568051B830D89AA /* PlexRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777245FBCDC9BCF9AA4F74AA7308B22 /* PlexRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B6C91B711BFFC5D39B9D7DC2BBCE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C31F3258B763103020BF0C9318C6203;
+			remoteInfo = PlexKit;
+		};
+		7871D65D30C38C02E0011A83D482921D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C31F3258B763103020BF0C9318C6203;
+			remoteInfo = PlexKit;
+		};
+		D8C33F2161294586F89193F81396A12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E323149A7102BAF32537B68B43BF135;
+			remoteInfo = "Pods-plexapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D67C1D9798F51AE2E20C7CA1740005 /* Pods-plexapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-plexapp-dummy.m"; sourceTree = "<group>"; };
+		09B9D602BB74DDC4B12C700AD0ED3B1B /* Pods-plexapp-plexappUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexapp-plexappUITests-Info.plist"; sourceTree = "<group>"; };
+		0F0BF976EB0294F545E5A3BF071CB790 /* PlexKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlexKit-prefix.pch"; sourceTree = "<group>"; };
+		1B982E1CD03AECB761283D048F8F915F /* PlexKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlexKit.release.xcconfig; sourceTree = "<group>"; };
+		1DD09EBF36DFD2C77AE9BFAA73916424 /* Playlists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Playlists.swift; path = PlexKit/Requests/Resource/Playlists.swift; sourceTree = "<group>"; };
+		1ED27F538349480B6483E67940C3FB86 /* Pods-plexappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexappTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FF1B875EF1DD0773621B0B01C2D69D1 /* PlexKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PlexKit.h; path = PlexKit/PlexKit.h; sourceTree = "<group>"; };
+		26F8B7EC2B8C50BC217E7E23D8985272 /* Pods-plexapp-plexappUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-plexapp-plexappUITests-umbrella.h"; sourceTree = "<group>"; };
+		2854D0B01543A755E89B413604EF8449 /* Pods_plexapp_plexappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_plexapp_plexappUITests.framework; path = "Pods-plexapp-plexappUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A8B5926B051895F5778C81026D6B7C0 /* Pods-plexappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC15DF41ECAA4A86CC360952E24A0FA /* PlexKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlexKit-dummy.m"; sourceTree = "<group>"; };
+		4A446578BBAF5544308C4E9146F20B18 /* PlaylistItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistItems.swift; path = PlexKit/Requests/Resource/PlaylistItems.swift; sourceTree = "<group>"; };
+		4C7C537BC8C1F339485EC7C79024204B /* Pods-plexapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-plexapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		518A0C71527D1CA0855E55CDC04384B7 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = PlexKit/Requests/Resource/Image.swift; sourceTree = "<group>"; };
+		53025E9A85E6D3660641A6D67F7B210B /* RelatedMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelatedMedia.swift; path = PlexKit/Requests/Resource/RelatedMedia.swift; sourceTree = "<group>"; };
+		536A714AFD1073D7FBE2EDAAE96EE1B5 /* PlexKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlexKit.debug.xcconfig; sourceTree = "<group>"; };
+		53839212912AC6B1FF33BB9A74A23716 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = PlexKit/Requests/Resource/Timeline.swift; sourceTree = "<group>"; };
+		5A4F1CFE6DECD5D575E47AD29F5F39F5 /* Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collections.swift; path = PlexKit/Requests/Resource/Collections.swift; sourceTree = "<group>"; };
+		5B2783531DA8F143AC59A65139FBC8A7 /* URLQueryItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLQueryItemExtensions.swift; path = PlexKit/Extensions/URLQueryItemExtensions.swift; sourceTree = "<group>"; };
+		5B3407DC5FA08D7D8138E93A01A2EA2A /* TranscodeAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranscodeAudio.swift; path = PlexKit/Requests/Resource/TranscodeAudio.swift; sourceTree = "<group>"; };
+		60F186E7DABEF22BCD8C36A01ECACE6E /* Pods-plexappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-plexappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64C47A83C2259C04C2402B9D3CD54606 /* Pods-plexapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-plexapp-frameworks.sh"; sourceTree = "<group>"; };
+		650CC6324AC6B94EFDC9C4BC2A25277F /* PlexKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlexKit-umbrella.h"; sourceTree = "<group>"; };
+		65754B48B793A85040E9E075CE03AC89 /* Resources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resources.swift; path = PlexKit/Requests/Service/Resources.swift; sourceTree = "<group>"; };
+		699C0DF2E22644CE78953B4344ABF8BA /* ItemMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemMetadata.swift; path = PlexKit/Requests/Resource/ItemMetadata.swift; sourceTree = "<group>"; };
+		736760511A1E4F748580A5008D4DE3FD /* Pods-plexapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexapp.debug.xcconfig"; sourceTree = "<group>"; };
+		74EFA3F810036D043F11A9E3AAF05166 /* PlexMediaType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexMediaType.swift; path = PlexKit/Models/PlexMediaType.swift; sourceTree = "<group>"; };
+		773A928843F8C365E4897F10E3DA1298 /* Plex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plex.swift; path = PlexKit/Plex.swift; sourceTree = "<group>"; };
+		77B41E4BB6FBF5D8AFA7BFFBA8CDE590 /* OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth.swift; path = PlexKit/Requests/Service/OAuth.swift; sourceTree = "<group>"; };
+		7E0E59A4D119064C6EC85EA974DD9382 /* ComparableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComparableExtensions.swift; path = PlexKit/Extensions/ComparableExtensions.swift; sourceTree = "<group>"; };
+		7E3417D85046608DA420A824677675C5 /* PlexLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexLibrary.swift; path = PlexKit/Models/PlexLibrary.swift; sourceTree = "<group>"; };
+		809B5139A8FA04467D00DA1D71AB2C6E /* Pods-plexapp-plexappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexapp-plexappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83F3AADD3DFAEB37FC34A5E98334335B /* Pods-plexapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-plexapp.modulemap"; sourceTree = "<group>"; };
+		84B54ACF6C60199EF82B88442B7D5492 /* PlexResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexResource.swift; path = PlexKit/Models/PlexResource.swift; sourceTree = "<group>"; };
+		894FD2DA907C7212CAE67534AF2DA91C /* Pods-plexapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C807375D57324F2032317EBD3B1BDF1 /* PlexMediaItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexMediaItem.swift; path = PlexKit/Models/PlexMediaItem.swift; sourceTree = "<group>"; };
+		8FD8688A46066313494A18A77433A525 /* Pods-plexapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexapp-Info.plist"; sourceTree = "<group>"; };
+		93A11191ABE2EDCA93787274E5EF932E /* PlexKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlexKit.framework; path = PlexKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956B0994BBED62CA8217672DDCF45860 /* Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Account.swift; path = PlexKit/Requests/Service/Account.swift; sourceTree = "<group>"; };
+		9681E7AFE4766162FD345695E3CAFB6B /* Pods-plexapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-plexapp-umbrella.h"; sourceTree = "<group>"; };
+		9A5A6E68806980D3403E7B154B4E6C03 /* Pods-plexappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexappTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02D72C62427BBCFC280281249A11CE2 /* Pods-plexapp-plexappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexapp-plexappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A03A995A4F0E0E4743FE2F515F265C70 /* EditRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditRating.swift; path = PlexKit/Requests/Resource/EditRating.swift; sourceTree = "<group>"; };
+		A25CD89F6BEECE4AFA33BDEED179AD68 /* HomeUsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeUsers.swift; path = PlexKit/Requests/Service/HomeUsers.swift; sourceTree = "<group>"; };
+		A4F4F72369EABC379AE3D01879C29550 /* Pods-plexapp-plexappUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-plexapp-plexappUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A770E1067569399541A4D2F375AC50DE /* Pods-plexapp-plexappUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-plexapp-plexappUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7B88003079D460E1C02FEB41F1CD666 /* MediaFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaFile.swift; path = PlexKit/Requests/Resource/MediaFile.swift; sourceTree = "<group>"; };
+		A87906B8682367F83F0C48276FB9A0D9 /* PlexCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexCollection.swift; path = PlexKit/Models/PlexCollection.swift; sourceTree = "<group>"; };
+		ACCB92BFF94136E1F0C2E411C09313BC /* Pods-plexappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-plexappTests.modulemap"; sourceTree = "<group>"; };
+		AF8C4629B793E58D7B0584D5E570DD60 /* Pods-plexappTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexappTests-Info.plist"; sourceTree = "<group>"; };
+		B16BB8CFB07C0801DF264DEDE6D7347F /* Pods-plexapp-plexappUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-plexapp-plexappUITests-dummy.m"; sourceTree = "<group>"; };
+		B77889D14D4B41A0E1DBFD6FAF0D3AEB /* PlexKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PlexKit.modulemap; sourceTree = "<group>"; };
+		BAE5F70DD8D076BBFE71C4E728425FCC /* TranscodeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranscodeImage.swift; path = PlexKit/Requests/Resource/TranscodeImage.swift; sourceTree = "<group>"; };
+		BB3F19F4BFE2313A0D6953FF63CCFD12 /* Pods-plexapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plexapp.release.xcconfig"; sourceTree = "<group>"; };
+		BB42F91103F16706E533F3D3BA7F13D7 /* PlexPlaylistType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexPlaylistType.swift; path = PlexKit/Models/PlexPlaylistType.swift; sourceTree = "<group>"; };
+		BD20179B95887FEF84C0E15551868F81 /* Pods-plexappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-plexappTests-dummy.m"; sourceTree = "<group>"; };
+		BD61845D55F744EA06E05DA2AE8407B7 /* LibraryItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LibraryItems.swift; path = PlexKit/Requests/Resource/LibraryItems.swift; sourceTree = "<group>"; };
+		C1A971E71622A74C0B26A1D5D257001E /* Pods-plexapp-plexappUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plexapp-plexappUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1FF2090DC8D19F24B324D2CF0524667 /* URLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtensions.swift; path = PlexKit/Extensions/URLExtensions.swift; sourceTree = "<group>"; };
+		C4BE3C0D94BDC246F7A7474D77AFAFF0 /* Pods-plexapp-plexappUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-plexapp-plexappUITests.modulemap"; sourceTree = "<group>"; };
+		C777245FBCDC9BCF9AA4F74AA7308B22 /* PlexRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexRequest.swift; path = PlexKit/Requests/PlexRequest.swift; sourceTree = "<group>"; };
+		C8AEE914CDBBFE4F47170BB20FD85970 /* Pods_plexapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_plexapp.framework; path = "Pods-plexapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C91F78C99A25A1605B83E8FAAFA5F9 /* SwitchUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchUser.swift; path = PlexKit/Requests/Service/SwitchUser.swift; sourceTree = "<group>"; };
+		DC3541B7E28AB92E448C79CA888EDBB5 /* PlexKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PlexKit-Info.plist"; sourceTree = "<group>"; };
+		E250C9115A33DBE193E47D8F5C66B4E9 /* PlexUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlexUser.swift; path = PlexKit/Models/PlexUser.swift; sourceTree = "<group>"; };
+		EED22BFE0D437B9D8C67A98A71B93E16 /* SimpleAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleAuthentication.swift; path = PlexKit/Requests/Service/SimpleAuthentication.swift; sourceTree = "<group>"; };
+		F1EF7BAD4182D6ADE38D82BCA997B006 /* Pods_plexappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_plexappTests.framework; path = "Pods-plexappTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57CD17D91827A8F2D8A580E4EDCB4FD /* Libraries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Libraries.swift; path = PlexKit/Requests/Resource/Libraries.swift; sourceTree = "<group>"; };
+		F935150E81C05336DCFBF729839D4471 /* Pods-plexappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-plexappTests-umbrella.h"; sourceTree = "<group>"; };
+		FE9E246CCC5A26A31C31657527614C60 /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = PlexKit/Requests/Resource/Identity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A8DF34CD0427F42EE381884203B752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B2356A04B41E0AE5AFD7F03E13D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BED635D088F8AC4E37D6CA5124735C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953C07EE62805F068DA90A67556D2F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6976D065ADDC718DE25A544BFC1033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AD8AF7D2FD069A343AFB750189B70D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CAB00D063864820339FDBBE3DE533B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18665C4035EAFDA1EBCB15F4B0AFA724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B4A8252C13FEE8617552D7D3148792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9CB6799ABEE66AFE51BE3EBFEFD1A1A /* PlexKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B3F3E6B05600CADC12B420EA9359D3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8841B939EBCF9796AB02F7683FE43EB /* Pods-plexapp */,
+				766A2323DBB23DDC055F5F9E6946E380 /* Pods-plexapp-plexappUITests */,
+				E7E7CF2CEED3F569D600D9D4100586B2 /* Pods-plexappTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		67A547080EFA1C04B3754EB2FEEA7FCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B77889D14D4B41A0E1DBFD6FAF0D3AEB /* PlexKit.modulemap */,
+				3EC15DF41ECAA4A86CC360952E24A0FA /* PlexKit-dummy.m */,
+				DC3541B7E28AB92E448C79CA888EDBB5 /* PlexKit-Info.plist */,
+				0F0BF976EB0294F545E5A3BF071CB790 /* PlexKit-prefix.pch */,
+				650CC6324AC6B94EFDC9C4BC2A25277F /* PlexKit-umbrella.h */,
+				536A714AFD1073D7FBE2EDAAE96EE1B5 /* PlexKit.debug.xcconfig */,
+				1B982E1CD03AECB761283D048F8F915F /* PlexKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PlexKit";
+			sourceTree = "<group>";
+		};
+		766A2323DBB23DDC055F5F9E6946E380 /* Pods-plexapp-plexappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE3C0D94BDC246F7A7474D77AFAFF0 /* Pods-plexapp-plexappUITests.modulemap */,
+				A770E1067569399541A4D2F375AC50DE /* Pods-plexapp-plexappUITests-acknowledgements.markdown */,
+				C1A971E71622A74C0B26A1D5D257001E /* Pods-plexapp-plexappUITests-acknowledgements.plist */,
+				B16BB8CFB07C0801DF264DEDE6D7347F /* Pods-plexapp-plexappUITests-dummy.m */,
+				A4F4F72369EABC379AE3D01879C29550 /* Pods-plexapp-plexappUITests-frameworks.sh */,
+				09B9D602BB74DDC4B12C700AD0ED3B1B /* Pods-plexapp-plexappUITests-Info.plist */,
+				26F8B7EC2B8C50BC217E7E23D8985272 /* Pods-plexapp-plexappUITests-umbrella.h */,
+				809B5139A8FA04467D00DA1D71AB2C6E /* Pods-plexapp-plexappUITests.debug.xcconfig */,
+				A02D72C62427BBCFC280281249A11CE2 /* Pods-plexapp-plexappUITests.release.xcconfig */,
+			);
+			name = "Pods-plexapp-plexappUITests";
+			path = "Target Support Files/Pods-plexapp-plexappUITests";
+			sourceTree = "<group>";
+		};
+		8C81672653CD4743408CEFF8FC0A168C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A11191ABE2EDCA93787274E5EF932E /* PlexKit.framework */,
+				C8AEE914CDBBFE4F47170BB20FD85970 /* Pods_plexapp.framework */,
+				2854D0B01543A755E89B413604EF8449 /* Pods_plexapp_plexappUITests.framework */,
+				F1EF7BAD4182D6ADE38D82BCA997B006 /* Pods_plexappTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CB6799ABEE66AFE51BE3EBFEFD1A1A /* PlexKit */ = {
+			isa = PBXGroup;
+			children = (
+				956B0994BBED62CA8217672DDCF45860 /* Account.swift */,
+				5A4F1CFE6DECD5D575E47AD29F5F39F5 /* Collections.swift */,
+				7E0E59A4D119064C6EC85EA974DD9382 /* ComparableExtensions.swift */,
+				A03A995A4F0E0E4743FE2F515F265C70 /* EditRating.swift */,
+				A25CD89F6BEECE4AFA33BDEED179AD68 /* HomeUsers.swift */,
+				FE9E246CCC5A26A31C31657527614C60 /* Identity.swift */,
+				518A0C71527D1CA0855E55CDC04384B7 /* Image.swift */,
+				699C0DF2E22644CE78953B4344ABF8BA /* ItemMetadata.swift */,
+				F57CD17D91827A8F2D8A580E4EDCB4FD /* Libraries.swift */,
+				BD61845D55F744EA06E05DA2AE8407B7 /* LibraryItems.swift */,
+				A7B88003079D460E1C02FEB41F1CD666 /* MediaFile.swift */,
+				77B41E4BB6FBF5D8AFA7BFFBA8CDE590 /* OAuth.swift */,
+				4A446578BBAF5544308C4E9146F20B18 /* PlaylistItems.swift */,
+				1DD09EBF36DFD2C77AE9BFAA73916424 /* Playlists.swift */,
+				773A928843F8C365E4897F10E3DA1298 /* Plex.swift */,
+				A87906B8682367F83F0C48276FB9A0D9 /* PlexCollection.swift */,
+				1FF1B875EF1DD0773621B0B01C2D69D1 /* PlexKit.h */,
+				7E3417D85046608DA420A824677675C5 /* PlexLibrary.swift */,
+				8C807375D57324F2032317EBD3B1BDF1 /* PlexMediaItem.swift */,
+				74EFA3F810036D043F11A9E3AAF05166 /* PlexMediaType.swift */,
+				BB42F91103F16706E533F3D3BA7F13D7 /* PlexPlaylistType.swift */,
+				C777245FBCDC9BCF9AA4F74AA7308B22 /* PlexRequest.swift */,
+				84B54ACF6C60199EF82B88442B7D5492 /* PlexResource.swift */,
+				E250C9115A33DBE193E47D8F5C66B4E9 /* PlexUser.swift */,
+				53025E9A85E6D3660641A6D67F7B210B /* RelatedMedia.swift */,
+				65754B48B793A85040E9E075CE03AC89 /* Resources.swift */,
+				EED22BFE0D437B9D8C67A98A71B93E16 /* SimpleAuthentication.swift */,
+				D1C91F78C99A25A1605B83E8FAAFA5F9 /* SwitchUser.swift */,
+				53839212912AC6B1FF33BB9A74A23716 /* Timeline.swift */,
+				5B3407DC5FA08D7D8138E93A01A2EA2A /* TranscodeAudio.swift */,
+				BAE5F70DD8D076BBFE71C4E728425FCC /* TranscodeImage.swift */,
+				C1FF2090DC8D19F24B324D2CF0524667 /* URLExtensions.swift */,
+				5B2783531DA8F143AC59A65139FBC8A7 /* URLQueryItemExtensions.swift */,
+				67A547080EFA1C04B3754EB2FEEA7FCE /* Support Files */,
+			);
+			name = PlexKit;
+			path = PlexKit;
+			sourceTree = "<group>";
+		};
+		B8841B939EBCF9796AB02F7683FE43EB /* Pods-plexapp */ = {
+			isa = PBXGroup;
+			children = (
+				83F3AADD3DFAEB37FC34A5E98334335B /* Pods-plexapp.modulemap */,
+				4C7C537BC8C1F339485EC7C79024204B /* Pods-plexapp-acknowledgements.markdown */,
+				894FD2DA907C7212CAE67534AF2DA91C /* Pods-plexapp-acknowledgements.plist */,
+				07D67C1D9798F51AE2E20C7CA1740005 /* Pods-plexapp-dummy.m */,
+				64C47A83C2259C04C2402B9D3CD54606 /* Pods-plexapp-frameworks.sh */,
+				8FD8688A46066313494A18A77433A525 /* Pods-plexapp-Info.plist */,
+				9681E7AFE4766162FD345695E3CAFB6B /* Pods-plexapp-umbrella.h */,
+				736760511A1E4F748580A5008D4DE3FD /* Pods-plexapp.debug.xcconfig */,
+				BB3F19F4BFE2313A0D6953FF63CCFD12 /* Pods-plexapp.release.xcconfig */,
+			);
+			name = "Pods-plexapp";
+			path = "Target Support Files/Pods-plexapp";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				41B4A8252C13FEE8617552D7D3148792 /* Pods */,
+				8C81672653CD4743408CEFF8FC0A168C /* Products */,
+				5B3F3E6B05600CADC12B420EA9359D3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E7CF2CEED3F569D600D9D4100586B2 /* Pods-plexappTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB92BFF94136E1F0C2E411C09313BC /* Pods-plexappTests.modulemap */,
+				60F186E7DABEF22BCD8C36A01ECACE6E /* Pods-plexappTests-acknowledgements.markdown */,
+				1ED27F538349480B6483E67940C3FB86 /* Pods-plexappTests-acknowledgements.plist */,
+				BD20179B95887FEF84C0E15551868F81 /* Pods-plexappTests-dummy.m */,
+				AF8C4629B793E58D7B0584D5E570DD60 /* Pods-plexappTests-Info.plist */,
+				F935150E81C05336DCFBF729839D4471 /* Pods-plexappTests-umbrella.h */,
+				3A8B5926B051895F5778C81026D6B7C0 /* Pods-plexappTests.debug.xcconfig */,
+				9A5A6E68806980D3403E7B154B4E6C03 /* Pods-plexappTests.release.xcconfig */,
+			);
+			name = "Pods-plexappTests";
+			path = "Target Support Files/Pods-plexappTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22B3C824E35EC6F0674DBF2E7D11866D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7303CEE6803551E2F64A8305BF3CCE66 /* Pods-plexappTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51880AF3CFAAACEC0671FCE52893E031 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1A28893CFB9DB8D18936031E65AD77 /* Pods-plexapp-plexappUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D0CBF93C1E87C01771FB79ACC17DCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE31902B710C44448F1743AA8DC49C1 /* PlexKit-umbrella.h in Headers */,
+				175FF3D9FF369AF2BADE4C285D98C4FE /* PlexKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E316D32495BF8379A98D478DF8C11A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EB16FAF3BACB4E3014E8C9A8AD8E6 /* Pods-plexapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C31F3258B763103020BF0C9318C6203 /* PlexKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F0C6A934FBF7FA05BAAF6C482DDF10 /* Build configuration list for PBXNativeTarget "PlexKit" */;
+			buildPhases = (
+				75D0CBF93C1E87C01771FB79ACC17DCB /* Headers */,
+				6EB3E19F2043B0FB8A20136ABFAE7F41 /* Sources */,
+				05A8DF34CD0427F42EE381884203B752 /* Frameworks */,
+				3EB4B4D41F63752705548F7DD015FEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlexKit;
+			productName = PlexKit;
+			productReference = 93A11191ABE2EDCA93787274E5EF932E /* PlexKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F97CB5F2280C60E024014E85E63F916 /* Pods-plexappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E5215607A1AA95BCA06FB69E0DFDA9 /* Build configuration list for PBXNativeTarget "Pods-plexappTests" */;
+			buildPhases = (
+				22B3C824E35EC6F0674DBF2E7D11866D /* Headers */,
+				785163A7607880134911B339BD9CC508 /* Sources */,
+				4B6976D065ADDC718DE25A544BFC1033 /* Frameworks */,
+				5268D661A27A428ED1D5A1BE98587817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C5893D16B701DDB5C6791CDEE56004 /* PBXTargetDependency */,
+			);
+			name = "Pods-plexappTests";
+			productName = "Pods-plexappTests";
+			productReference = F1EF7BAD4182D6ADE38D82BCA997B006 /* Pods_plexappTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E323149A7102BAF32537B68B43BF135 /* Pods-plexapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5213E16649714930C244DF10649CF7F /* Build configuration list for PBXNativeTarget "Pods-plexapp" */;
+			buildPhases = (
+				7E316D32495BF8379A98D478DF8C11A8 /* Headers */,
+				DCE3C7D179A107B1FDC9FF74D820CED9 /* Sources */,
+				29BED635D088F8AC4E37D6CA5124735C /* Frameworks */,
+				BFF99906841B899D26E0FB4FE4A202B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB07CF22B29FC0014F6E97CF65773A1B /* PBXTargetDependency */,
+			);
+			name = "Pods-plexapp";
+			productName = "Pods-plexapp";
+			productReference = C8AEE914CDBBFE4F47170BB20FD85970 /* Pods_plexapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1C61A1C810C6384B5FDF6F0111FC730 /* Pods-plexapp-plexappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C2E09AE468653DC4E3F4194BE0200D /* Build configuration list for PBXNativeTarget "Pods-plexapp-plexappUITests" */;
+			buildPhases = (
+				51880AF3CFAAACEC0671FCE52893E031 /* Headers */,
+				B92508CFC46AF94F4196D5323011083F /* Sources */,
+				B8CAB00D063864820339FDBBE3DE533B /* Frameworks */,
+				8D84E307808B1CCDC418CFB852A2A822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1865EFD49195E2EF2161CA36EFE3AAD /* PBXTargetDependency */,
+			);
+			name = "Pods-plexapp-plexappUITests";
+			productName = "Pods-plexapp-plexappUITests";
+			productReference = 2854D0B01543A755E89B413604EF8449 /* Pods_plexapp_plexappUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C81672653CD4743408CEFF8FC0A168C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C31F3258B763103020BF0C9318C6203 /* PlexKit */,
+				9E323149A7102BAF32537B68B43BF135 /* Pods-plexapp */,
+				D1C61A1C810C6384B5FDF6F0111FC730 /* Pods-plexapp-plexappUITests */,
+				8F97CB5F2280C60E024014E85E63F916 /* Pods-plexappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB4B4D41F63752705548F7DD015FEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5268D661A27A428ED1D5A1BE98587817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D84E307808B1CCDC418CFB852A2A822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF99906841B899D26E0FB4FE4A202B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB3E19F2043B0FB8A20136ABFAE7F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B802094899CD2E197F5A34A97321C8F4 /* Account.swift in Sources */,
+				94B37922AE252A96CC8FD3EA660717D1 /* Collections.swift in Sources */,
+				8164379161ED76AB59B5FDFC91511646 /* ComparableExtensions.swift in Sources */,
+				B61390AEC87EA7AE3EC030956E073BF2 /* EditRating.swift in Sources */,
+				83A556CEEC26CFB1EA5A7D17E2744583 /* HomeUsers.swift in Sources */,
+				7140D57A5350D2578C24B56955CA55A8 /* Identity.swift in Sources */,
+				0E280DD3076395932A517BD973773BB6 /* Image.swift in Sources */,
+				92AADB3ADED62320485795F15D11D032 /* ItemMetadata.swift in Sources */,
+				9378D4B702804BBE9EEB323241F0D202 /* Libraries.swift in Sources */,
+				2502AF5A9BE75FA512C22072748F238A /* LibraryItems.swift in Sources */,
+				F5E5536E53C372A2C0B5BF047748CF98 /* MediaFile.swift in Sources */,
+				C7E7D97019F03971A91DAD5932E5EDF9 /* OAuth.swift in Sources */,
+				DE9EEC0AAE74262ADDB306FC770CBF02 /* PlaylistItems.swift in Sources */,
+				B722D02DB331855A555D6CD667DC3F22 /* Playlists.swift in Sources */,
+				986F0039F85FA2DF94B27181D8FC6CF0 /* Plex.swift in Sources */,
+				1DAB1F54505BB133BE42A8CA34F47479 /* PlexCollection.swift in Sources */,
+				BA332504A958093418884F323C5EA5A1 /* PlexKit-dummy.m in Sources */,
+				7A2F044FF5168504C7F67D801C75D4DD /* PlexLibrary.swift in Sources */,
+				4F0F78364F6F0EE551A313356BBE91DC /* PlexMediaItem.swift in Sources */,
+				42CC3B8C6206E10E74C75F88E88627A1 /* PlexMediaType.swift in Sources */,
+				4C413015D32409BE6AC0CBF8423F1371 /* PlexPlaylistType.swift in Sources */,
+				FEB98BE803F300B6A568051B830D89AA /* PlexRequest.swift in Sources */,
+				5FB3B6EE6E89644F2CB339F689757EF2 /* PlexResource.swift in Sources */,
+				84B3E334F308A18A53BCE2AF9296AC2A /* PlexUser.swift in Sources */,
+				4919C5257CC6C8679DF80675EC762E8D /* RelatedMedia.swift in Sources */,
+				A09AE47A6EF7574BDB73B3A1F2AB65F2 /* Resources.swift in Sources */,
+				80F1370B4084A41C3A02F9790C66DE7C /* SimpleAuthentication.swift in Sources */,
+				27B60492A5AB43587B264C8F4CE1FCA8 /* SwitchUser.swift in Sources */,
+				6A89452104174CEACE262A04EB422E99 /* Timeline.swift in Sources */,
+				8D77B61E160A231D697A12724E9A1ED0 /* TranscodeAudio.swift in Sources */,
+				16D56B8003416F542B58CD1FBE96F2E9 /* TranscodeImage.swift in Sources */,
+				17B84C64B65AA794DFD68F005E8D018C /* URLExtensions.swift in Sources */,
+				C4D6714122462FA2B4A646E9AEECD055 /* URLQueryItemExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785163A7607880134911B339BD9CC508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDEC7B29D40045CAB1204A16B02EA3E /* Pods-plexappTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92508CFC46AF94F4196D5323011083F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B095D9007B285F9DE1B38EB02E3B9E4 /* Pods-plexapp-plexappUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE3C7D179A107B1FDC9FF74D820CED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90C3EF50C2E0A6EE052781975028F6 /* Pods-plexapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1865EFD49195E2EF2161CA36EFE3AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PlexKit;
+			target = 7C31F3258B763103020BF0C9318C6203 /* PlexKit */;
+			targetProxy = 54B6C91B711BFFC5D39B9D7DC2BBCE0A /* PBXContainerItemProxy */;
+		};
+		DB07CF22B29FC0014F6E97CF65773A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PlexKit;
+			target = 7C31F3258B763103020BF0C9318C6203 /* PlexKit */;
+			targetProxy = 7871D65D30C38C02E0011A83D482921D /* PBXContainerItemProxy */;
+		};
+		F7C5893D16B701DDB5C6791CDEE56004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-plexapp";
+			target = 9E323149A7102BAF32537B68B43BF135 /* Pods-plexapp */;
+			targetProxy = D8C33F2161294586F89193F81396A12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24047297B027763CE8B71EA50A1F1337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736760511A1E4F748580A5008D4DE3FD /* Pods-plexapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexapp/Pods-plexapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexapp/Pods-plexapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		276ADBAA35D6312CB22ACE18A1CD81EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A714AFD1073D7FBE2EDAAE96EE1B5 /* PlexKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlexKit/PlexKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlexKit/PlexKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PlexKit/PlexKit.modulemap";
+				PRODUCT_MODULE_NAME = PlexKit;
+				PRODUCT_NAME = PlexKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4137F5E325E402A140168693AB90A108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5A6E68806980D3403E7B154B4E6C03 /* Pods-plexappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexappTests/Pods-plexappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexappTests/Pods-plexappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B7C00CCEC3F43C9934F780441DC03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8B5926B051895F5778C81026D6B7C0 /* Pods-plexappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexappTests/Pods-plexappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexappTests/Pods-plexappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85E80332546D278C8116985275752348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B982E1CD03AECB761283D048F8F915F /* PlexKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlexKit/PlexKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlexKit/PlexKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PlexKit/PlexKit.modulemap";
+				PRODUCT_MODULE_NAME = PlexKit;
+				PRODUCT_NAME = PlexKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5ED5E661866047532E8C93730D0170B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809B5139A8FA04467D00DA1D71AB2C6E /* Pods-plexapp-plexappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF643EC4ECEDA06CFAB2F07A52F0E163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02D72C62427BBCFC280281249A11CE2 /* Pods-plexapp-plexappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexapp-plexappUITests/Pods-plexapp-plexappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E11B4AE85C4E78646D591E3293F86BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3F19F4BFE2313A0D6953FF63CCFD12 /* Pods-plexapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plexapp/Pods-plexapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plexapp/Pods-plexapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F0C6A934FBF7FA05BAAF6C482DDF10 /* Build configuration list for PBXNativeTarget "PlexKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ADBAA35D6312CB22ACE18A1CD81EE /* Debug */,
+				85E80332546D278C8116985275752348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C2E09AE468653DC4E3F4194BE0200D /* Build configuration list for PBXNativeTarget "Pods-plexapp-plexappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED5E661866047532E8C93730D0170B /* Debug */,
+				CF643EC4ECEDA06CFAB2F07A52F0E163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E5215607A1AA95BCA06FB69E0DFDA9 /* Build configuration list for PBXNativeTarget "Pods-plexappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7C00CCEC3F43C9934F780441DC03EE /* Debug */,
+				4137F5E325E402A140168693AB90A108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5213E16649714930C244DF10649CF7F /* Build configuration list for PBXNativeTarget "Pods-plexapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24047297B027763CE8B71EA50A1F1337 /* Debug */,
+				E11B4AE85C4E78646D591E3293F86BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
