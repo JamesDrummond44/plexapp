@@ -74,6 +74,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FB8E36F524B59D260072C4A9 /* Plex Interfacing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Plex Interfacing";
+			sourceTree = "<group>";
+		};
+		FB8E36F624B59D300072C4A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49BBD24B59853002C0A36 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB8E36F724B59D360072C4A9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49BB924B59853002C0A36 /* AppDelegate.swift */,
+				FBC49BBB24B59853002C0A36 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FB8E36F824B59D3C0072C4A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49BBF24B59853002C0A36 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		FBC49BAD24B59853002C0A36 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +127,11 @@
 		FBC49BB824B59853002C0A36 /* plexapp */ = {
 			isa = PBXGroup;
 			children = (
+				FB8E36F824B59D3C0072C4A9 /* Storyboards */,
+				FB8E36F724B59D360072C4A9 /* Delegates */,
+				FB8E36F624B59D300072C4A9 /* Controllers */,
+				FB8E36F524B59D260072C4A9 /* Plex Interfacing */,
 				FB8E36F424B598EF0072C4A9 /* plexapp.entitlements */,
-				FBC49BB924B59853002C0A36 /* AppDelegate.swift */,
-				FBC49BBB24B59853002C0A36 /* SceneDelegate.swift */,
-				FBC49BBD24B59853002C0A36 /* ViewController.swift */,
-				FBC49BBF24B59853002C0A36 /* Main.storyboard */,
 				FBC49BC524B59855002C0A36 /* Assets.xcassets */,
 				FBC49BC724B59855002C0A36 /* LaunchScreen.storyboard */,
 				FBC49BCA24B59855002C0A36 /* Info.plist */,
